@@ -25,7 +25,7 @@ gulp.task('sass', function () {
 				.pipe(sass())
 				.pipe(ap())
 				.pipe(cssmin())
-				.pipe(gulp.dest('assets/css'));
+				.pipe(gulp.dest('./'));
 });
 
 // browser
