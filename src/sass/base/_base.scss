@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+body {
+	font-feature-settings : "palt";
+}
+
 // image
 img {
 	max-width: 100%;
