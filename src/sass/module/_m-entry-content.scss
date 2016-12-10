@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+body {
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+}
+
+.entry-title {
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+	font-size: 42px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffb200;
+}
+
+.entry-content {
+	a {
+		text-decoration: underline;
+	}
+	h2 {
+		font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+		border-left: solid 4px #ffb200;
+		padding-left: 10px;
+	}
+	h3 {
+		font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+	}
+}
+
+article.post .entry-content {
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+	text-align: left;
+}
