@@ -23,7 +23,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="alternate" hreflang="ja" href="http://foodear.jp/" />
-<link rel="stylesheet" href="<?php get_stylesheet_directory_uri(); ?>/add.css">
 
 <?php wp_head(); ?>
 
@@ -77,16 +76,8 @@
 
 		<div class="container">
 			<div id="logo">
-				<span class="site-name"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php
-					if( $show_logo && $logo ) {
-                        echo wp_get_attachment_image($logo, 'full');
-					}
-					elseif( $show_title ) {
-						bloginfo( 'name' );
-					}
-					else{
-						bloginfo( 'name' );
-					} ?>
+				<span class="site-name"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" alt="">
 					</a>
 				</span><!-- end of .site-name -->
 
